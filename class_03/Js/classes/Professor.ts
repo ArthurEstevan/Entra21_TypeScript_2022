@@ -1,5 +1,5 @@
-import { Aluno } from "./Aluno";
-import { Pessoa } from "./Pessoa";
+import { Aluno } from "./Aluno.js";
+import { Pessoa } from "./Pessoa.js";
 
 export class Professor extends Pessoa {
 
@@ -9,7 +9,7 @@ export class Professor extends Pessoa {
     public cidade: String;
     public alunos: Array<Aluno>;
 
-    constructor( nome: String, idade: number, cidade: String, alunos: Array<Aluno>) {
+    constructor(nome: String, idade: number, cidade: String, alunos: Array<Aluno>) {
         super(nome, idade, cidade);
         this.alunos = alunos;
     }
@@ -20,9 +20,13 @@ export class Professor extends Pessoa {
 
     public gerarBoletins(): Array<number> {
 
-    let boletim:Array<number> = [1,2,3,4]
+        let boletim: Array<number> = []
 
-    return boletim
-}
+        this.alunos.forEach(aluno => {
+            boletim.push(aluno.calcularMedia());
+        });
+
+        return boletim
+    }
 
 }

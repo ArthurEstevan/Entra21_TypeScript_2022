@@ -1,4 +1,4 @@
-import { Pessoa } from "./Pessoa";
+import { Pessoa } from "./Pessoa.js";
 export class Aluno extends Pessoa {
     constructor(nome, idade, cidade, notas) {
         super(nome, idade, cidade);

@@ -1,5 +1,5 @@
-import { Pessoa } from "./Pessoa";
-import { Professor } from "./Professor";
+import { Pessoa } from "./Pessoa.js";
+import { Professor } from "./Professor.js";
 
 export class Diretor extends Pessoa {
 

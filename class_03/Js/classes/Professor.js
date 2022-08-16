@@ -1,4 +1,4 @@
-import { Pessoa } from "./Pessoa";
+import { Pessoa } from "./Pessoa.js";
 export class Professor extends Pessoa {
     constructor(nome, idade, cidade, alunos) {
         super(nome, idade, cidade);
@@ -8,7 +8,10 @@ export class Professor extends Pessoa {
         return `Olá, meu nome é ${this.nome} e tenho ${this.idade}.`;
     }
     gerarBoletins() {
-        let boletim = [1, 2, 3, 4];
+        let boletim = [];
+        this.alunos.forEach(aluno => {
+            boletim.push(aluno.calcularMedia());
+        });
         return boletim;
     }
 }
