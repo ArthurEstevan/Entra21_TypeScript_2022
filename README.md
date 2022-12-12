@@ -1,13 +1,11 @@
-# Entra![](icons/entra21numero.png) ![](/icons/)![](icons/)
+# Entra![](/Icons/entra21numero.png) TypeScript Contents ![](/Icons/typescript.png) 
 
-## _Repository with several subjects in _
+## _Repository with several subjects in Typescript._
 
 > _Practical content carried out in the classroom during the Entra21 project._
-
 >
-> - **__**
-> - **__**
-> - **__**
+> - **_TYPESCRIPT - Programming language._**
+> - **_JAVASCRIPT - Programming language._**
 
 ![Gif Entra21](https://raw.githubusercontent.com/seiler-emerson/Entra21_Logica_Java_2022/main/gif/entra21.gif)
 
@@ -15,25 +13,19 @@
 
 | CLASSES | SUBJECTS |
 |---------|---------|
-|Class_01|[](./Class_01/)
-|Class_02|[](./Class_02/)
-|Class_03|[](./Class_03/)
-|Class_04|[](./Class_04/)
-|Class_05|[](./Class_05/)
-|Class_06|[](./Class_06/)
+|Class_01|[Start first code in Typescript.](./class_01/)
+|Class_02|[Lerning about Typescript.](./class_02/)
+|Class_03|[Creating classes in Typescript.](./class_03/)
+
 ## 🎫 _Bonus_
 
 ```yaml
-Learning first code in Html 'Hello world':
+Learning first code in Typescript 'Hello world':
 
-<p>Hello World</p>
+helloworld: string = "Hello World"
 ```
 ## 📚 _References_
 
 > Sites where I got the exercises, I will also leave repositories to help you do the exercises.
-1. [Simples exercises in HTML]()
-2. [Difficult exercises in HTML]()
-3. [My help repository]()
-4. [Teacher help repository]()
-5. [Learning ]()
-6. [Learning ]()
+1. [My help repository](https://github.com/ArthurEstevan?tab=repositories)
+2. [Teacher help repository](https://github.com/oliota/entra21-aulas-frontend-typescript)
